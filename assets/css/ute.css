@@ -1,0 +1,108 @@
+body{
+	width : 100%;
+	margin : 0;
+	font-family : Helvetica, arial, freesans, clean, sans-serif !important;
+}
+
+section textarea,section pre {
+	clear: both;
+	height: inherit;
+	margin: 0 !important;
+	width: 95%;
+}
+
+ul {
+	vertical-align: top;
+}
+
+header,footer {
+	height: 70px;
+}
+
+header {
+	margin-bottom: 10px;
+	background-color: #000000;
+	color : #FFFFFF;
+	padding: 10px 0;
+}
+
+#bodyContainer {
+	height: 525px;
+}
+
+.heading {
+	font-size: 37px;
+	height: 29px;
+	line-height: 30px;
+	margin: 8px 0 0 100px;
+	float: left;
+}
+
+.creator {
+	font-size: 18px;
+	height: 29px;
+	line-height: 30px;
+	margin: 5px 350px 0 0;
+	float: right;
+	text-align: right;
+}
+
+.tagline{
+	font-size: 20px;
+}
+
+.creator a{
+	color: #FFFFFF;
+}
+
+.creator a:visited {
+	color: #FFFFFF;
+}
+
+.inputHolder {
+	background-color: #000000;
+	border: medium none;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 10px !important;
+	border-radius: 0 !important;
+}
+
+.error {
+	color: red !important;
+}
+
+.colClass {
+	float: left;
+	width: 32%;
+	margin-left: 10px;
+	height: 500px;
+}
+
+.colClass .title {
+	font-size: 25px;
+	padding: 0 0 5px 15px;
+	text-align: left;
+	float: left;
+}
+
+.colClass .buttons {
+	float: right;
+	position: relative;
+	top: 7px;
+}
+
+#forkme_banner {
+  display: block;
+  position: absolute;
+  top:0;
+  right: 10px;
+  z-index: 10;
+  padding: 10px 50px 10px 10px;
+  color: #fff;
+  background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
