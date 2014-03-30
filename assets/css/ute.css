@@ -1,0 +1,93 @@
+#bodyContainer {
+	height: 525px;
+}
+
+.inputHolder {
+	background-color: #000000;
+	border: medium none;
+	color: #FFFFFF;
+	font-size: 15px;
+	padding: 10px !important;
+	border-radius: 0 !important;
+}
+
+section textarea,section pre {
+	clear: both;
+	height: inherit;
+	margin: 0 !important;
+	width: 95%;
+}
+
+.error {
+	color: red !important;
+}
+
+ul {
+	vertical-align: top;
+}
+
+.colClass {
+	float: left;
+	width: 32%;
+	margin-left: 10px;
+	height: 500px;
+}
+
+header,footer {
+	height: 70px;
+}
+
+header {
+	margin-bottom: 10px;
+	padding: 15px 15px 5px 32px;
+}
+
+footer {
+	margin-top: 30px;
+	clear: both;
+}
+
+.title {
+	font-size: 25px;
+	padding: 0 0 5px 15px;
+	text-align: left;
+	float: left;
+}
+
+.underscoreImage {
+	background: url("../images/underscore.png") no-repeat;
+	background-size: 365px;
+	display: inline-block;
+	height: 60px;
+	width: 370px;
+}
+
+.heading {
+	border-bottom: 8px solid;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 37px;
+	height: 29px;
+	line-height: 14px;
+	margin-left: 23px;
+	position: relative;
+	top: -20px;
+}
+
+.buttons {
+	float: right;
+	position: relative;
+	top: 7px;
+}
+
+.creator {
+	border-bottom: 8px solid;
+	display: inline-block;
+	font-family: monospace;
+	font-size: 18px;
+	height: 29px;
+	line-height: 22px;
+	margin-left: 65px;
+	position: relative;
+	top: -20px;
+}

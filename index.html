@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link type="text/css" href="assets/css/ute.css" rel="stylesheet" />
+<link type="text/css" href="assets/css/prettify.css" rel="stylesheet" />
+<script type="text/javascript" src="assets/js/underscore-min.js"></script>
+<script type="text/javascript" src="assets/js/zepto.min.js"></script>
+<script type="text/javascript" src="assets/js/prettify.js"></script>
+<script type="text/javascript"
+	src="assets/js/vkbeautify.0.99.00.beta.js"></script>
+<script type="text/javascript" src="app/UTE.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		UTE.start();
+	})
+</script>
+<title>Underscore Template Editor</title>
+</head>
+<body>
+	<header>
+		<div class="underscoreImage"></div>
+		<div class="heading">TEMPLATE EDITOR</div>
+		<div class="creator">By : Niranjan Borawake</div>
+	</header>
+	<div id="bodyContainer" align="center">
+		<section>
+			<div class="colClass">
+				<div>
+					<span class="title">Template</span>
+					<span class="buttons">
+						<button id="clearTemplate">Clear</button>
+					</span>
+				</div>
+				<textarea id="_TE-template" rows="20" cols="100" class="inputHolder" spellcheck='false'></textarea>
+			</div>
+			<div class="colClass">
+				<div>
+					<span class="title">JSON</span>
+					<span class="buttons">
+						<button	id="formatJSON">Format</button>
+						<button id="clearJSON">Clear</button>
+					</span>
+				</div>
+				<textarea id="_TE-data" rows="20" cols="100" class="inputHolder" spellcheck='false'></textarea>
+			</div>
+			<div class="colClass" align="left">
+				<div class="title">Result</div>
+				<pre id="_TE-output" class="prettyprint inputHolder"></pre>
+			</div>
+		</section>
+	</div>
+	<footer></footer>
+</body>
+</html>
