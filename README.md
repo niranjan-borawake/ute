@@ -3,7 +3,7 @@ UTE
 
 ###Underscore.js Template Editor
 
-Firstly, if you already know Underscore.js, JavaScript Templating and Underscore's Templating you can skip everything below and directly using the editor [here](http://niranjan-borawake.github.io/ute). 
+Firstly, if you already know Underscore.js, JavaScript Templating and Underscore's Templating you can skip everything below and directly start using the editor [here](http://niranjan-borawake.github.io/ute). 
 
 Let's start by discussing, what actually is Underscore.js?
 
